@@ -1,10 +1,10 @@
 body{
-    margin: 4em 6em 4em 4em;
+    margin: 4em 8em 4em 4em;
 }
 header{
     width: 100%;
-    padding: 1em 1em 0.2em 1em;
-    background-color: rgb(237, 237, 14);
+    padding: 1em 0.75em 0.2em 1em;
+    background-color: #100a0a;
 }
 .top{
     margin-left: .7em;
@@ -13,14 +13,11 @@ header{
     top: -5em;
     position: relative;
     float: right;
-    margin-right: 4.5em;
+    margin-right: 1.5em;
 }
 #main{
     margin-left: 2em;
 }
-/* .three{
-    margin: 2em;
-} */
 .three{
     display: inline-block;
     float: center;
@@ -30,9 +27,29 @@ header{
     margin-left: -.1em;
     margin-right: -.1em;
 }
+.bottom{
+    display: inline;
+    margin: 1.85em;
+}
+#btLeft{
 
-
-
-#text{
-    font-size: 16px;
+    float: left;
+}
+ p{
+    display: inline-block;
+    margin: 0em 1em 0em -3em;
+    height: 320px;
+    width: 450px;
+    overflow: scroll;
+    padding: 2em;
+ }
+ .btn{
+    background-color: #948484;
+     padding: 1em;
+}
+footer{
+    width: 100%;
+    margin: 2em 2em 9em 2em;
+    padding: 1em 0.75em 12em 1em;
+    background-color: #1f1717;
 }
