@@ -1,0 +1,38 @@
+body{
+    margin: 4em 6em 4em 4em;
+}
+header{
+    width: 100%;
+    padding: 1em 1em 0.2em 1em;
+    background-color: rgb(237, 237, 14);
+}
+.top{
+    margin-left: .7em;
+}
+.right{
+    top: -5em;
+    position: relative;
+    float: right;
+    margin-right: 4.5em;
+}
+#main{
+    margin-left: 2em;
+}
+/* .three{
+    margin: 2em;
+} */
+.three{
+    display: inline-block;
+    float: center;
+    margin: 1.85em;
+}
+#center{
+    margin-left: -.1em;
+    margin-right: -.1em;
+}
+
+
+
+#text{
+    font-size: 16px;
+}
